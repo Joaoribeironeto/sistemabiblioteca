@@ -1,0 +1,91 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+.app-container {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+.book-form {
+  margin-bottom: 30px;
+}
+
+.book-form input {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.book-form button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-form button:hover {
+  background-color: #45a049;
+}
+
+.book-list {
+  margin-top: 20px;
+}
+
+.book-item {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #fafafa;
+}
+
+.book-item h2 {
+  margin-top: 0;
+  font-size: 1.5em;
+}
+
+.book-item p {
+  margin: 5px 0;
+}
+
+.book-item button {
+  margin-right: 10px;
+  padding: 10px 16px;
+  background-color: #f44336;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.book-item button:hover {
+  background-color: #d32f2f;
+}
+
+.book-item button.edit-btn {
+  background-color: #2196F3;
+}
+
+.book-item button.edit-btn:hover {
+  background-color: #1976D2;
+}
